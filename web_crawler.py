@@ -253,15 +253,15 @@ def web_crawler(professor_list, save_path):
     driver.close()
 
 if __name__ == '__main__':
-    
     # 設定輸入名單與輸出結果的檔案名稱
+    """
     path = 'input/professor.txt'
     save_path = 'output/output.csv'
     """
-    #path = input('輸入名單的檔案路徑：')
-    #save_path = input('輸出結果的檔案路徑：')
-    """
 
+    path = input('輸入名單的檔案路徑：')
+    save_path = input('輸出結果的檔案路徑：')
+    
     # 執行讀取文字檔函式
     professor_list = read_txt(path)
     # print(professor_list)
